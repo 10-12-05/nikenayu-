@@ -85,8 +85,8 @@ $total_stok_kritis = mysqli_num_rows(mysqli_query(
                     <ul
                         class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
                         <li class="dropdown-header">
-                            <h6><?php echo isset($_SESSION['name']) ? $_SESSION['name'] : 'User'; ?></h6>
-                            <span><?php echo isset($_SESSION['role']) ? $_SESSION['role'] : 'Role'; ?></span>
+                            <h6><?php echo isset($_SESSION['name']) ? $_SESSION['name'] : 'NIKEN AYU'; ?></h6>
+                            <span><?php echo isset($_SESSION['role']) ? $_SESSION['role'] : 'admin'; ?></span>
                         </li>
                         <li>
                             <hr class="dropdown-divider" />

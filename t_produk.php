@@ -99,7 +99,7 @@ if (isset($_POST['simpan'])) {
                   href="#"
                   data-bs-toggle="dropdown">
                   <img
-                    src="assets/img/niken."
+                    src="assets/img/niken.jpeg"
                     alt="Profile"
                     class="rounded-circle" /></a><!-- End Profile Image Icon -->
 
@@ -107,7 +107,7 @@ if (isset($_POST['simpan'])) {
                   class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
                   <li class="dropdown-header">
                     <h6><?php echo isset($_SESSION['name']) ? $_SESSION['name'] : 'NIKEN AYU'; ?></h6>
-                    <span><?php echo isset($_SESSION['role']) ? $_SESSION['role'] : 'Admin'; ?></span>
+                    <span><?php echo isset($_SESSION['role']) ? $_SESSION['role'] : 'admin'; ?></span>
                   </li>
                   <li>
                     <hr class="dropdown-divider" />
