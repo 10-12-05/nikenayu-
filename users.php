@@ -145,24 +145,21 @@ if (!isset($_SESSION["login"])) {
         </ol>
       </nav>
     </div><!-- End Page Title -->
-    <div class="row">
-      <div class="col-lg-12">
-
-        <div clas="card">
-          <div class="card-body mt-3">
-            <a href="t_user.php" class="btn btn-primary">Tambah Data </a>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="card">
+            <div class="card-body mt-3">
+              <a href="t_user.php" class="btn btn-primary">Tambah Data</a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-
     <section class="section">
       <div class="row">
         <div class="col-lg-12">
 
           <div class="card">
             <div class="card-body">
-
               <!-- Table with stripped rows -->
               <table class="table datatable">
                 <thead>
